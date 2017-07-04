@@ -1,0 +1,45 @@
+/*预设区*/
+html{font-size:100px;}
+*{margin:0;padding:0;}
+a{color:#000;text-decoration: none;display:inline-block;}
+ul,li{list-style: none;}
+/*分割*/
+
+/*头部区*/
+.heade{background:url('../image/gradient.png') no-repeat 0 0/100%;background-size:cover;position: relative;}
+.heade .Drop_MenuStyle{border-radius:0.05rem;width:3.2rem;padding:0.2rem 0 0.2rem 0.1rem;}
+.Bg_star{background:url('../image/illustration2.png') no-repeat 0 0/100%;background-size:cover;}
+.bg_computer{background:url('../image/illustration.png') no-repeat 2.5rem 0/100%;background-size:contain;padding:0 0 4rem;}
+.Bg_star h1{font-size:0.48rem;color:#fff;width:5.2rem;margin-top: 2.2rem;}
+.Bg_star h1+p{font-size:0.18rem;color:#d6e8f5;margin-top: 0.28rem;width:4rem;}
+.Bg_star button{margin:0.5rem 0.16rem 0 0;padding:0.1rem 0.3rem;}
+.BandPosition{position:relative;left:0;bottom:-0.7rem;}
+.BandList{display:flex;justify-content:space-around;align-items: center;padding:0.4rem 0 0.3rem}
+.Panel_My a{color:#d6e8f5;font-size:0.15rem;}
+.Panel_My{border:none;background-color:transparent;}
+.Panel_My li{display: inline-block;margin-right:0.36rem;}
+.Panel_My img{display: inline-block;margin-right:0.36rem;}
+.Panel_My button{
+	border:1px solid rgba(255,255,255,0.2);
+	background:transparent;
+	color:#D6E8F5;
+	font-size:0.15rem;
+	border-radius: 0.03rem;
+	padding:0.1rem 0.3rem;
+}
+/*分割*/
+
+/*躯干区*/
+.marg_70{margin:0.7rem 0 0 0.8rem;}
+.Bg_mian{background:url('../image/shot1-x.png') no-repeat 0 0/100%;background-size:cover;padding:0.7rem 0 0.8rem 0;}
+/*分割*/
+
+/*页尾*/
+.footer{margin-top:40px;}
+.FootList{display: flex;flex-direction: column;justify-content: space-around;align-items: flex-start;}
+.FootList a{margin-bottom:0.2rem;color:#6d8090;font-size:0.16rem;}
+form{position:relative;}
+.arrow{position:absolute;right:0.05rem;top:0.08rem;}
+.copy hr{margin:0.4rem 0;}
+.copy .col-md-3 a{font-size:0.25rem;color:lightgray;margin-right: 0.08rem;}
+/*分割*/
